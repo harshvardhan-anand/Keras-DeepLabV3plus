@@ -1,9 +1,9 @@
-<h1><u>Implementing DeepLabV3+ using Keras to remove video background without green screen</u></h1>
+<h1><u>Implementing DeepLabV3+ using Keras to remove video background without the green screen</u></h1>
 
 <br>
 
-<strong>When to use this proect?</strong>
-1. If you are going to use Google Colab or any other online service to process your reocrded video file then use <code>recorded.py</code>.
+<strong>When to use this project?</strong>
+1. If you are going to use Google Colab or any other online service to process your recorded video file then use <code>recorded.py</code>.
 2. If you want to process live video streaming from your webcam then use <code>live.py</code>.
 
 <br>
@@ -24,7 +24,7 @@ You can use any video processing software to grab audio from your original file 
 <br>
 
 <strong>Will I get audio in live video?</strong><br>
-No, This project uses computer vision to process video not audio so you have to merge audio file.
+No, this project uses computer vision to process video not audio so you have to merge audio file.
 
 <h2>Features</h2>
 
@@ -36,4 +36,4 @@ No, This project uses computer vision to process video not audio so you have to 
 
 4. Maintainable code.
 
-5. DeepLabV3+ updated for tensorflow 2.x (fixed error AttributeError: 'int' object has no attribute 'value').<br>
+5. DeepLabV3+ updated for TensorFlow 2.x (fixed error AttributeError: 'int' object has no attribute 'value').<br>
