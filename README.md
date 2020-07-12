@@ -1,6 +1,6 @@
 <h1><u>Implementing DeepLabV3+ using Keras to remove video background without green screen</u></h1>
 
-<strong>When to use this proect?</strong><br>
+<strong>When to use this proect?</strong>
 1. If you are going to use Google Colab or any other online service to process your reocrded video file then use <code>recorded.py</code>. <br>
 2. If you want to process live video streaming from your webcam then use <code>live.py</code>.
 <br>
