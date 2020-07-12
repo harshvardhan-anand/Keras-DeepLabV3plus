@@ -4,6 +4,14 @@ import numpy as np
 from model import Deeplabv3
 from imutils.video import WebcamVideoStream
 
+folder = str(dt.datetime.now()).replace(':', '_')[:10]
+os.makedirs(folder)
+current_path = os.path.abspath(os.getcwd())
+file = str(dt.datetime.now()).replace(':', '.')[:19]
+save_file = os.path.join(current_path, folder, f'Cleaned_{file}.avi')
+
+os.chdir('keras-deeplab-v3-plus')
+
 deeplab_model = Deeplabv3()
 vid = cv2.VideoCapture(0)
 cv2.namedWindow("SuperCam", cv2.WINDOW_NORMAL)
@@ -12,7 +20,7 @@ blurValue = (41,41)
 width = int(vid.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(vid.get(cv2.CAP_PROP_FRAME_HEIGHT))
 codec = cv2.VideoWriter_fourcc(*'DIVX')
-writer = cv2.VideoWriter('SuperCamVideo.avi', codec, 20, (width, height))
+writer = cv2.VideoWriter(save_file, codec, 20, (width, height))
 
 while True:
     _, frame = vid.read()
