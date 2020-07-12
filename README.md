@@ -2,9 +2,8 @@
 
 <strong>When to use this proect?</strong><br>
 1. If you are going to use Google Colab or any other online service to process your reocrded video file then use <code>recorded.py</code>. <br>
-2. If you want to process live video streaming from your webcam then use <code>live.py<code>.
-  
-  
+2. If you want to process live video streaming from your webcam then use <code>live.py</code>.
+<br>
 <strong>Why this project blur recoded file?</strong>
 <br>
 When you have low end device and you want to use Google Colab to process your file (or you have recorded video in any other device), to avoid unexpected bugs out there you have to use <code>recorded.py</code>
