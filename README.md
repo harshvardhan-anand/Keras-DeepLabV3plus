@@ -32,8 +32,8 @@ No, This project uses computer vision to process video not audio so you have to 
 
 2. Recording live video (without audio).
 
-3. Feature to use project for recorded file.
+3. Process your recorded video.
 
 4. Maintainable code.
 
-5. DeepLabV3+ for for tensorflow 2.x (fixed error AttributeError: 'int' object has no attribute 'value').<br>
+5. DeepLabV3+ updated for tensorflow 2.x (fixed error AttributeError: 'int' object has no attribute 'value').<br>
